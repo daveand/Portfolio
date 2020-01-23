@@ -9,6 +9,10 @@
     {
       "library": "font-awesome@5.11.2",
       "destination": "wwwroot/lib/font-awesome/"
+    },
+    {
+      "library": "gsap@3.0.5",
+      "destination": "wwwroot/lib/gsap/"
     }
   ]
 }
