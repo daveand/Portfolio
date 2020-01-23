@@ -1,71 +1,188 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Roboto&display=swap');
 
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
+html, body {
+    background-color: white;
+    margin: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
 }
 
-/* Provide sufficient contrast against white background */
+p {
+    font-size: 1.2em;
+}
+
 a {
-  color: #0366d6;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.icon-wrapper {
+    margin-right: 20px;
+    color: white;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+h4 {
+    color: grey;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+.title-button {
+    font-size: 1em !important;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.s1 {
+    background: url('../img/light-bulb_crop.jpg');
+    background-size: auto;
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    .s1 h1 {
+        border-bottom: 1px solid white;
+        text-align: left;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+
+    .s1 .content-wrapper {
+        margin-left: auto;
+        width: 800px;
+        background-color: rgba(0,0,0,0.5);
+        padding: 1.5em;
+        border-radius: 20px;
+        margin-right: 4em;
+    }
+
+
+.s2 {
+    background: url('../img/projects_crop.jpg');
+    background-size: auto;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+    .s2 h1 {
+        border-bottom: 1px solid white;
+        text-align: left;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+
+    .s2 .content-wrapper {
+        margin-right: auto;
+        width: 600px;
+        background-color: rgba(0,0,0,0.5);
+        padding: 1.5em;
+        border-radius: 20px;
+        margin-left: 4em;
+    }
+
+    .s2 .slide-content-wrapper {
+        width: 90%;
+        background-color: rgba(0,0,0,0.5);
+        padding: 1.5em;
+        border-radius: 20px;
+        margin-left: auto;
+    }
+
+    .s2 .slide-content-image-wrapper {
+        width: 90%;
+        background-color: rgba(0,0,0,0.5);
+        padding: 1.5em;
+        border-radius: 20px;
+        margin-right: auto;
+        text-align: center;
+        overflow: hidden;
+    }
+
+
+
+
+.s3 {
+    background: url('../img/contact_crop.jpg');
+    background-size: auto;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    .s3 h1 {
+        border-bottom: 1px solid white;
+        text-align: left;
+        font-size: 3em;
+        margin-bottom: 0.5em;
+    }
+
+    .s3 .content-wrapper {
+        margin-right: auto;
+        width: 600px;
+        background-color: rgba(0,0,0,0.5);
+        padding: 1.5em;
+        border-radius: 20px;
+        margin-left: 4em;
+    }
+
+
+#fp-nav {
+    top: 8%;
+    margin-right: 30px;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+
+    #fp-nav span {
+        background: white !important;
+    }
+
+.header {
+    position: absolute;
+    display: inline-flex;
+    top: 0px;
+    left: 0px;
+    color: white;
+    margin-left: 2em;
+    margin-top: 1.5em;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1em;
+    border-radius: 20px;
+    text-align: center;
+    height: 100px;
+    width: calc(100% - 4em);
 }
+
+.header-title {
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.header-subtitle {
+    color: #dfe3eb;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.header-subtitle p {
+    color: grey;
+    font-size: 0.5em;
+}
+
+.tech-btn {
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    background-color: rgb(74, 66, 104);
+    color: rgb(163, 158, 158);
+    font-size: 1em;
+    border-radius: 2px;
+    pointer-events: none;
+    margin-bottom: 3px;
+}
+
+.project-img {
+    width: 100%;
+}
+

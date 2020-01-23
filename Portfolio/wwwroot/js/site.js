@@ -1,4 +1,9 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿
 
-// Write your Javascript code.
+new fullpage('#fullPage', {
+    autoScrolling: true,
+    navigation: true,
+    anchors: ['section1', 'section2', 'section3'],
+    navigationTooltips: ['About Me', 'Projects', 'Contact'],
+    showActiveTooltip: true
+});
