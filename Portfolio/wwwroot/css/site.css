@@ -20,8 +20,8 @@ html, body {
 }
 
 p {
-    font-size: 0.9em;
-    line-height: 1em;
+    font-size: 1.1em;
+    line-height: 1.1em;
 }
 
 a {
@@ -68,7 +68,7 @@ h4 {
         padding: 0.5em;
         border-radius: 20px;
         margin: auto;
-
+        transform: translateY(10%);
     }
 
 
@@ -125,8 +125,8 @@ h4 {
     }
 
     .s2 p {
-        font-size: 1.6em;
-        line-height: 1.5em;
+        font-size: 1.4em;
+        line-height: 1em;
     }
 
 
