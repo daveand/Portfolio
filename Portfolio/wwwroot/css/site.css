@@ -1,4 +1,12 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Roboto&display=swap');
+﻿/*@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Roboto&display=swap');*/
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/OpenSans-CondLight.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.otf') format("truetype");
+}
 
 /*font-family: 'Roboto', sans-serif;
 font-family: 'Montserrat', sans-serif;
