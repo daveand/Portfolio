@@ -60,6 +60,7 @@ h4 {
         padding: 0.5em;
         border-radius: 20px;
         margin: auto;
+        transform: translateY(10%);
     }
 
 
@@ -168,7 +169,7 @@ h4 {
     padding: 1em;
     border-radius: 20px;
     text-align: left;
-    height: 90px;
+    height: 100px;
     width: calc(100% - 2em);
 }
 
@@ -231,6 +232,21 @@ h4 {
     display: none;
 }
 
+.jumbotron {
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.jumbotron .tech-btn {
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    background-color: rgb(74, 66, 104);
+    color: rgb(163, 158, 158);
+    font-size: 0.7em;
+    border-radius: 2px;
+    pointer-events: none;
+    margin-bottom: 0px;
+}
 
 @media (min-width: 768px) {
     .hidden-large {
@@ -284,11 +300,11 @@ h4 {
 
         .s1 .content-wrapper {
             margin-left: auto;
-            width: 800px;
+            width: 600px;
             background-color: rgba(39,53,77,0.3);
             padding: 1.5em;
             border-radius: 20px;
-            margin-right: 12em;
+            margin-right: 6em;
         }
 
 
@@ -314,19 +330,23 @@ h4 {
         }
 
         .s2 .slide-content-wrapper {
-            width: 90%;
-            background-color: rgba(39,53,77,0.3);
-            padding: 1.5em;
-            border-radius: 20px;
             margin-left: auto;
+            width: 85%;
+            background-color: rgba(39,53,77,0.3);
+            padding: 0.5em;
+            border-radius: 20px;
+            margin: auto;
+            transform: translateY(10%);
         }
 
         .s2 .slide-content-image-wrapper {
-            width: 90%;
+            margin-left: auto;
+            width: 85%;
             background-color: rgba(39,53,77,0.3);
-            padding: 1.5em;
+            padding: 0.5em;
             border-radius: 20px;
-            margin-right: auto;
+            margin: auto;
+            transform: translateY(10%);
             text-align: center;
             overflow: hidden;
         }
@@ -382,10 +402,10 @@ h4 {
     }
 
     .header-title {
-        font-size: 4em;
+        font-size: 2em;
         font-family: 'Montserrat', sans-serif;
-        margin-bottom: -10px;
-        margin-top: -10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         border-right: 1px solid white;
         padding-right: 10px;
         margin-right: 10px;
@@ -440,7 +460,7 @@ h4 {
         }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 991px) {
     p {
         font-size: 1.2em;
     }
@@ -514,11 +534,11 @@ h4 {
         }
 
         .s2 .slide-content-wrapper {
-            width: 90%;
+            width: 85%;
             background-color: rgba(39,53,77,0.3);
             padding: 1.5em;
             border-radius: 20px;
-            margin-left: auto;
+            margin-left: 6em;
         }
 
         .s2 .slide-content-image-wrapper {
@@ -526,7 +546,7 @@ h4 {
             background-color: rgba(39,53,77,0.3);
             padding: 1.5em;
             border-radius: 20px;
-            margin-right: auto;
+            margin-right: 6em;
             text-align: center;
             overflow: hidden;
         }
